@@ -1,0 +1,31 @@
+{
+  "name": "melostring",
+  "version": "1.0.0",
+  "description": "Work with words",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mymelo/melostring.git"
+  },
+  "keywords": [
+    "word",
+    "persian",
+    "english",
+    "arabic",
+    "turkish",
+    "mysql"
+  ],
+  "author": "mymelo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mymelo/melostring/issues"
+  },
+  "homepage": "https://github.com/mymelo/melostring#readme",
+  "dependencies": {
+    "change-case": "^3.0.1",
+    "persianize": "^1.0.2"
+  }
+}
