@@ -93,7 +93,11 @@ var removeRepeatedCharacters = function (str, n, options) {
         } else {
             nth = 1;
         }
-        if (nth <= n || (options && options.keep_phonetic && nth == 2 && 'oeOE'.indexOf(c) > -1)) {
+        if (
+            nth <= n ||
+            (options && options.keep_phonetic && nth == 2 && 'oeOE'.indexOf(c) > -1) ||
+            (options.keep_numbers && '0123456789۰۱۲۳۴۵۶۷۸۹'.indexOf(c) > -1)
+        ) {
             ret += c;
         }
         lastChar = c;
