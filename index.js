@@ -330,7 +330,6 @@ var serialize = function (mixed_value) {
     return val.replace(/};/g, '}');
 };
 
-console.log(removeSpecialChar('salam a\'zam khanoom+hamid'));
 module.exports = {
     englishize_numbers: englishize_numbers,
     persianize_numbers: persianize_numbers,
